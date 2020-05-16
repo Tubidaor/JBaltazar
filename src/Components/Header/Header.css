@@ -1,0 +1,160 @@
+
+.headerImg {
+  top: 0px;
+  margin: auto;
+  height: 50px;
+  background-image: url("https://raw.githubusercontent.com/Tubidaor/portfolio-site/phase2/Herov3.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 600%;
+  background-position-y: 68%;
+}
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: #232763;
+  box-shadow: 0 0 5px 1px #232763;
+  height: 30px;
+}
+.my-name {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #e94498;
+  font-family: 'Ubuntu', sans-serif;
+}
+.menu-bg {
+  z-index: -1;
+  /* height: auto; */
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  background:#232763;
+  border-radius: 15%;
+  transition: 0.3s ease;
+  display: none;
+}
+#hamburger {
+  width: 35px;
+  margin-top: 6px;
+  margin-right: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #ea4498;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  margin-top: 4px;
+}
+#bar1 {
+  transform: translateY(-2px);
+  margin-top: -2px;
+}
+#bar3 {
+  transform: translateY(2px);
+  margin-top: 4px;
+}
+.menu {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.menu li a {
+  color: #F9E100;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu li a:hover {
+  color: #ea4498;
+}
+.menu li {
+  text-align: left;
+  list-style: none;
+  margin-left: -20px;
+}
+.change-bg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 70px;
+  z-index: 1;
+}
+.change .bar {
+  background-color: #F9E100;
+}
+.change #bar1 {
+  transform: translatey(14px) rotateZ(-45deg);
+  margin-top: -7px;
+}
+.change #bar3 {
+  transform: translateY(-4px) rotate(45deg);
+  margin-top: 4px;
+}
+.change #bar2 {
+  opacity: 0;
+}
+.menu.change {
+  margin-right: 10px;
+  margin-left: -4px
+}
+.change {
+  display: block;
+}
+
+
+
+@media screen and (min-width: 700px){
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: space-around;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 300px;
+  }
+  .menu li::after{
+    content: " |";
+    color: #ea4498;
+    font-weight: bold;
+  }
+  .menu li.item4::after{
+    content: none;
+  }
+  .menu li {
+    list-style: none;
+    margin-left: 2px;
+  }
+  .menu-bg {
+    /* z-index: -1; */
+    /* height: auto; */
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    margin-left: none;
+    margin-right: none;
+    margin-top: -26px;
+    background: none;
+    border-radius: none;
+    transition: none;
+    display: block;
+    /* height: 30px; */
+  }
+  .change-bg {
+    display: block;
+    margin-top: -65px;
+    width: 340px;
+    /* margin-right: 8px; */
+  }
+  /* .change {
+    display: none;
+  } */
+}

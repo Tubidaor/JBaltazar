@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Faster+One&family=Frijole&family=Righteous&family=Ruslan+Display&display=swap');
+.h1AboutMe {
+  color: #232763;
+  background: linear-gradient(#676767 60%, #232763 80%);
+  /* background: linear-gradient(#f95528 70%, #ec1b78 60%); */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  font-family: 'Righteous', cursive;
+  -webkit-text-stroke: .1px #232763;
+  text-align: center;
+
+}
+
+.aboutMeContainer {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-bottom: 20px;
+}
+
+.aboutMePContainer {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 1em;
+  font-family: 'Righteous', cursive;
+}

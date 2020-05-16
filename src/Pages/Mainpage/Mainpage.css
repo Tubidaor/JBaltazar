@@ -1,0 +1,40 @@
+.containerMain {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100vh;
+}
+img {
+  position: relative;
+  height: 400px;
+  width: auto;
+  top: 50px;
+  /* bottom: auto; */
+  left: -200px;
+  right: auto;
+  display: block;
+}
+.imgContainer {
+  width: 44%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introDiv {
+  width: 56%;
+  height: 50vh;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 700px) {
+  img {
+    left: 0px;
+  }
+  .introDiv {
+    width: 50%;
+  }
+  .imgContainer {
+    width: 50%;
+  }
+}
