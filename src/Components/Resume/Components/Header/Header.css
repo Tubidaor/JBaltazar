@@ -1,0 +1,159 @@
+.resumeHeader {
+  height: 206px;
+}
+.resumeUl {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.liHeader {
+  list-style: none;
+  margin-top: -24px;
+  font-size: .85em;
+}
+.resumeH1 {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.headerContainer {
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -16px;
+}
+.bubblesDiv {
+  margin-left: -40px;
+}
+.resumeImg {
+  height: 160px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgDiv {
+  overflow: hidden;
+  border-radius: 50%;
+  height: 115px;
+  width: 115px;
+  background-color: #facc6b;
+  background-image: radial-gradient(circle at 100%, #facc6b 0%, #fabc3c 74%);
+}
+.firstBubble {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  margin-top: -96px;
+  margin-left: 130px;
+}
+.secondBubble {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 150px;
+}
+.thirdBubble {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 174px;
+}
+.fourthBubble {
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 196px;
+  text-align: center;
+  background-color: #facc6b;
+  background-image: radial-gradient(circle at 100%, #facc6b 0%, #fabc3c 74%);
+}
+.bubbleP {
+  font-size: .825em;
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+  margin-bottom: auto;
+}
+span {
+  color: #4590e5;
+  font-weight: bold;
+}
+
+/* @media (min-width: 599px){
+  .resumeH1 {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    height: 160px;
+  }
+  .resumeUl {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    float: right;
+  }
+  .liHeader {
+    list-style: none;
+    margin-top: -20px;
+    font-size: .9em;
+  }
+  .resumeHeader {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid #daa45c; 
+  }
+  .resumeImg {
+    height: 180px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+
+@media screen and (min-width: 600px) {
+  .liHeader {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .liHeader {
+    font-size: 1em;
+    padding-top: 14px
+  }
+}
+
+@media print {
+  .liHeader {
+    font-size: 1em;
+    padding-top: 14px
+  }
+}

@@ -54,9 +54,10 @@
 
 button {
   margin-top: 4px;
+  width: 100px;
   /* margin-bottom: 6px; */
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto;
   background-color: #232763;
   color: #e94498;
   /* height: 30px; */

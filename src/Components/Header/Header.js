@@ -45,7 +45,7 @@ export default function Header(props) {
               {/* <a href="index.html#projects">Projects</a> */}
             </li>
             <li className="li item4">
-              <Link to='/'>
+              <Link to='/resume'>
                 Resume
               </Link>
             </li>

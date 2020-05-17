@@ -47,14 +47,25 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Dodgers Trivia",
-    description: "A short quiz about the Los Angeles Dodgers.",
+    title: "Video Game Discovery",
+    description: "Discover video games: past and present",
     Tech: 'Technologies used: CSS, HTML, JavaScript, jQuery.',
-    imageSource: "https://raw.githubusercontent.com/Tubidaor/portfolio-site/master/Project-1_ScreenShot.png",
-    imageAlt: "Screen Shot of Juan Baltazar's web app about Dodgers trivia.",
-    projectURL: "https://tubidaor.github.io/quiz-app/",
-    projectRepo: "https://github.com/Tubidaor/quiz-app",
+    imageSource: "https://gist.githubusercontent.com/Tubidaor/f2fa6d8791e90ee911b3399a80fd5527/raw/1efcaaa80d73e4f3740c64be8190250b4f96ed8b/Discovery%2520App%2520320vp.png",
+    imageAlt: "Screen Shot of Video Game Discovery App.",
+    projectURL: "https://tubidaor.github.io/VideoGameDiscovery/",
+    projectRepo: "https://github.com/Tubidaor/VideoGameDiscovery",
   },
+  {
+    id: 3,
+    title: "Chatter",
+    description: "Keep track of child's word count",
+    Tech: 'Technologies used: React, Node, Jax, PostreSQL, CSS, HTML, JavaScript, jQuery.',
+    imageSource: "https://i.ibb.co/4PBKD8r/Screen-Shot-2020-05-17-at-12-32-19-PM.png",
+    imageAlt: "Screen Shot of Chatter App.",
+    projectURL: "https://chatter-app.juanbaltazar.now.sh/",
+    projectRepo: "https://github.com/Tubidaor/chatter-app",
+  },
+
 
 ]
 

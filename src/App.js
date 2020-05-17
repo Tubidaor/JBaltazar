@@ -6,6 +6,7 @@ import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import AboutMePage from './Pages/AboutMePage/AboutMePage';
 import  ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
+import ResumePage from './Pages/ResumePage/ResumePage';
 
 function App() {
 
@@ -68,6 +69,11 @@ function App() {
         exact path={"/projects"}
         component={ProjectsPage}
         />
+        <Route
+        exact path={"/resume"}
+        component={ResumePage}
+        />
+
 
   
       </main>

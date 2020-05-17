@@ -1,0 +1,83 @@
+.labelsDiv {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.labelBubble1 {
+  background-color: #4590e5;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-right: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.labelBubble2 {
+  background-color: #facc6b;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-right: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.labelHolder {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.potential {
+  height: 10px;
+  background-color: #facc6b;
+  background-image: linear-gradient(90deg, #4590e5 52%, #facc6b 72%);
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12px;
+}
+.current {
+  height: 100%;
+  background-color: #4590e5;
+  width: 40%;
+  border-radius: 2px;
+}
+.ulSkills {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.liSkills {
+  list-style: none;
+  margin-top: -10px;
+  font-size: .9em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.liSkillContainer {
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.liSkillContainer {
+  margin-left: auto;
+  margin-right: auto;
+}

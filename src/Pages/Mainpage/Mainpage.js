@@ -46,7 +46,7 @@ export default class Mainpage extends React.Component {
     <div className="mainDiv">
       <div className="containerMain" >
         <div className="imgContainer">
-          <img src="https://i.ibb.co/fnSSrZZ/JUANRESUME-1.png" alt="black and white picture of Juan"/>
+          <img className="mainImg" src="https://i.ibb.co/fnSSrZZ/JUANRESUME-1.png" alt="black and white picture of Juan"/>
         </div>
         <div className="introDiv">
           {this.state.counter >= 1 && <Intro className={"intro"} id={"Hi"} top={"100px"} left={"2px"} text={this.state[1]}/>}

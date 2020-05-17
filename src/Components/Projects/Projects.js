@@ -1,11 +1,9 @@
 import React from 'react';
 import './Projects.css';
-import { Link } from 'react-router-dom';
 
 export default function Projects(props) {
-  
+
   let displayProjects = props.projects
-  console.log(displayProjects)
 
   let renderProjects = displayProjects.map(proj =>
     <div key={proj.id} className="projectsDiv">
@@ -21,22 +19,18 @@ export default function Projects(props) {
           alt={proj.imageAlt}
         />
         <div className="buttonContainer">
-          <Link to={proj.projectRepo}>
             <button
               type="button"
               className={`button ${proj.id}`}
-              >
-              Repo
+              onClick={(e) => {e.preventDefault(); window.open(proj.projectRepo)}}>Repo
             </button>
-          </Link>
-          <Link to={proj.projectURL}>
             <button
               type="button"
               className={`button ${proj.id}`}
+              onClick={(e) => {e.preventDefault(); window.open(proj.projectURL)}}
               >
               Web App
             </button>
-          </Link>
         </div>
       </section>
   </div>

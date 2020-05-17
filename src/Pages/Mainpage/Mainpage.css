@@ -4,7 +4,7 @@
   flex-direction: row;
   height: 100vh;
 }
-img {
+.mainImg {
   position: relative;
   height: 400px;
   width: auto;
@@ -28,7 +28,7 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-  img {
+  .mainImg {
     left: 0px;
   }
   .introDiv {

@@ -1,0 +1,177 @@
+.resume {
+  background-color: #d3cbb8;
+}
+.resume .resumeHeader{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+h3 {
+  margin-bottom: 20px;
+  color: black;
+}
+.breakpoint {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 4px;
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #f5f2d0 0%, #facc6b 54%);
+}
+.breakpointAddLang1 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 4px;
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #f5f2d0 0%, #facc6b 54%);
+}
+.breakpointHead {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 4px;
+  background-color: #facc6b;
+  background-image: linear-gradient(315deg, #f5f2d0 0%, #facc6b 54%);
+}
+.introSection {
+  font-size: .9em;
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skillsSection {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profExSection {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edSection {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.certMiscSection {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerResume {
+  color: black;
+  text-align: center;
+  padding-bottom: 2px;
+}
+.footerResumeDiv {
+  display: inline;
+  background-color: #61dafb;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 600px) {
+  .resumeMain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .leftHalf {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rightHalf {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .introSection {
+    width: 100%;
+  }
+  .skillsSection {
+    width: 100%;
+  }
+  .edSection {
+    width: 100%;
+  }
+  .certMiscSection {
+    width: 100%;
+  }
+  .breakpoint {
+    width: 100%;
+  }
+  .breakpointAddLang1 {
+    width: 100%;
+  }
+  
+  .borderDiv div {
+    width: 5px;
+    height: 96%;
+    margin-top: 20px;
+    background-color: #facc6b;
+    background-image: linear-gradient(315deg, #f5f2d0 0%, #facc6b 54%);
+  }
+  .profExSection {
+    width: 100%;
+  }
+}
+
+@media print {
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .leftHalf {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rightHalf {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .introSection {
+    width: 100%;
+  }
+  .skillsSection {
+    width: 100%;
+  }
+  .edSection {
+    width: 100%;
+  }
+  .certMiscSection {
+    width: 100%;
+  }
+  .breakpoint {
+    width: 100%;
+  }
+  .borderDiv div {
+    width: 5px;
+    height: 96%;
+    margin-top: 20px;
+    background-color: #facc6b;
+    background-image: linear-gradient(315deg, #f5f2d0 0%, #facc6b 54%);
+  }
+  .profExSection {
+    width: 100%;
+  }
+  .breakpointAddLang1 {
+    width: 100%;
+    margin-top:60px;
+  }
+  .jobsCont4 {
+    padding-top: 25px;
+  }
+  footer {
+    margin-top: 570px;
+  }
+}
