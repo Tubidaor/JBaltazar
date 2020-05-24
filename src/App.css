@@ -9,7 +9,9 @@
   /* bottom: -30vh; */
   /* overflow: hidden; */
 }
-
+.resumePageContainer {
+  margin-top: -26px;
+}
 .App {
   overflow: hidden;
   /* height: 100vh; */
@@ -21,3 +23,6 @@
 /* .resumePageContainer {
   margin-top: -12px;
 } */
+main {
+  margin-top: 60px;
+}

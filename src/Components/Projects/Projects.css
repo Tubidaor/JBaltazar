@@ -11,7 +11,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid #232763;
+  border: 2px solid #232763;
   border-radius: 10px;
   padding: 5px;
   margin-top: 10px;
@@ -40,6 +40,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  border: 2px solid #232763;
   left: 0px;
   top: 0px;
 }
@@ -48,7 +49,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 2px;
   margin-bottom: 20px;
 }
 
@@ -67,4 +68,30 @@ button {
   cursor: pointer;
   font-weight: bold;
   padding-top: 2px;
+}
+.aboutMePContainer {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 1em;
+  font-family: 'Righteous', cursive;
+  border: 2px solid #232763;
+  border-radius: 10px;
+}
+
+
+@media screen and (min-width: 400px) {
+  .project {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .project {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .project {
+    width: 40%;
+  }
 }

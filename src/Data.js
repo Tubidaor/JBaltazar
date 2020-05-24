@@ -1,6 +1,6 @@
 export const intro = [
   {
-    intro: `I am a Full Stack Developer stuck in the body of a CPA. After 11 years as an accounting professional, 
+    intro: `I am a Full Stack Developer stuck in the body of a CPA. After 12 years as an accounting professional, 
       I decided to pursue what brings me joy and fulfillment: coding, problem solving, and building stuff.`,
     introElaborate:`I am a Full Stack Developer stuck in the body of a CPA. After 11 years as an accounting professional, 
       I decided to pursue what brings me joy and fulfillment: coding, problem solving, and building stuff.
@@ -16,7 +16,7 @@ export const aboutMe = [
   },
   {
     id:2,
-    para: `I am a Full Stack Developer stuck in the body of a CPA. After 11 years as an accounting professional, 
+    para: `I am a Full Stack Developer stuck in the body of a CPA. After 12 years as an accounting professional, 
       I decided to pursue what brings me joy and fulfillment: coding, problem solving, and building stuff.`,
   },
   {
@@ -29,7 +29,7 @@ export const aboutMe = [
   },
   {
     id:4,
-    para: `Besides coding, some of my interests include reading the newspaper, music, sports (fantasy and otherwise), motorcycles, 
+    para: `Besides coding, some of my interests include reading, music, sports (fantasy and otherwise), motorcycles, 
     trying to make people laugh, how to be a better father, and how to be a better person.`,
   }
 ]
@@ -39,8 +39,8 @@ export const projects = [
     id: 1,
     title: "Dodgers Trivia",
     description: "A short quiz about the Los Angeles Dodgers.",
-    Tech: 'Technologies used: CSS, HTML, JavaScript, jQuery.',
-    imageSource: "https://raw.githubusercontent.com/Tubidaor/portfolio-site/master/Project-1_ScreenShot.png",
+    Tech: 'CSS, HTML, JavaScript, jQuery.',
+    imageSource: "https://i.ibb.co/LRqW1Sp/Dodgers-App-Screen-Shot.png",
     imageAlt: "Screen Shot of Juan Baltazar's web app about Dodgers trivia.",
     projectURL: "https://tubidaor.github.io/quiz-app/",
     projectRepo: "https://github.com/Tubidaor/quiz-app",
@@ -49,7 +49,7 @@ export const projects = [
     id: 2,
     title: "Video Game Discovery",
     description: "Discover video games: past and present",
-    Tech: 'Technologies used: CSS, HTML, JavaScript, jQuery.',
+    Tech: 'CSS, HTML, JavaScript, jQuery.',
     imageSource: "https://gist.githubusercontent.com/Tubidaor/f2fa6d8791e90ee911b3399a80fd5527/raw/1efcaaa80d73e4f3740c64be8190250b4f96ed8b/Discovery%2520App%2520320vp.png",
     imageAlt: "Screen Shot of Video Game Discovery App.",
     projectURL: "https://tubidaor.github.io/VideoGameDiscovery/",
@@ -59,8 +59,8 @@ export const projects = [
     id: 3,
     title: "Chatter",
     description: "Keep track of child's word count",
-    Tech: 'Technologies used: React, Node, Jax, PostreSQL, CSS, HTML, JavaScript, jQuery.',
-    imageSource: "https://i.ibb.co/4PBKD8r/Screen-Shot-2020-05-17-at-12-32-19-PM.png",
+    Tech: 'React, Node, Jax, PostreSQL, CSS, HTML, JavaScript, jQuery.',
+    imageSource: "https://i.ibb.co/CtxTgy0/chatter-app-juanbaltazar-now-sh-3.png",
     imageAlt: "Screen Shot of Chatter App.",
     projectURL: "https://chatter-app.juanbaltazar.now.sh/",
     projectRepo: "https://github.com/Tubidaor/chatter-app",

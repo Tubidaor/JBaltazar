@@ -16,7 +16,7 @@
   width:90%;
   margin-left: auto;
   margin-right: auto;
-  
+
   margin-bottom: 20px;
 }
 
@@ -26,4 +26,10 @@
   padding: 4px;
   font-size: 1em;
   font-family: 'Righteous', cursive;
+  border: 2px solid #232763;
+  border-radius: 10px;
+}
+
+.aboutMeP {
+  padding: 2px;
 }

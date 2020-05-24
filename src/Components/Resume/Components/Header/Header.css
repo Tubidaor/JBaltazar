@@ -36,11 +36,10 @@
   margin-left: -40px;
 }
 .resumeImg {
-  height: 160px;
+  height: 164px;
   width: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -20px;
 }
 .imgDiv {
   overflow: hidden;

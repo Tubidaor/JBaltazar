@@ -8,8 +8,8 @@ export default class Mainpage extends React.Component {
     super(props)
     this.state = {
         1:"Hi.",
-        2:"I'm Juan",
-        3:"I'm a web developer",
+        2:"I'm Juan.",
+        3:"I'm a web developer.",
         counter: 0,
     }
   }
@@ -18,7 +18,6 @@ export default class Mainpage extends React.Component {
       setTimeout(this.setCounter, 3000)
       setTimeout(this.setCounter, 4000)
       setTimeout(this.setCounter, 5000)
-      setTimeout(this.setCounter, 6000)
   }
   
   setCounter = () => {
@@ -29,19 +28,6 @@ export default class Mainpage extends React.Component {
   
   render() {
     
-  // const left = function() {
-  //   return Math.floor(Math.random() * 150 + 50)
-  // }
-  // const topOne = function() {
-  //   return Math.floor(Math.random() * 100 + 50)
-  // }
-  // const topTwo = function() {
-  //   return Math.floor(Math.random() * 100 + 200)
-  // }
-  // const topThree = function() {
-  //   return Math.floor(Math.random() * 200 + 300)
-  // }
- 
   return (
     <div className="mainDiv">
       <div className="containerMain" >

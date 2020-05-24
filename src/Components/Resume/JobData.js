@@ -7,7 +7,9 @@ import {
   faGamepad,
   faBasketballBall,
   faMusic,
-  faWater
+  faWater,
+  faPuzzlePiece,
+  faCode,
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -89,7 +91,7 @@ export const jobData = [
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
     begDate: 'Oct 2007',
-    endDate: 'Dec 2010',
+    endDate: 'Dec 2009',
     jobTitle: 'Staff Accountant',
     responsibilities: 'Prepared journal entries for commission revenue and expenses, account receivable, payroll, intercompany allocations, and any other miscellaneous entries.',
     accomplishments: [
@@ -185,27 +187,27 @@ export const jobDataFull = [
 
 export const jobSkills = [ 
   {
-    skill: "Drive",
+    skill: "DRIVE",
     rating: 100,
   },
   {
-    skill: "Sticktoitiveness",
+    skill: "GRIT",
     rating: 100,
   },
   {
-    skill: "Work Ethic",
+    skill: "CURIOSITY",
     rating: 100,
   },
   {
-    skill: "Enjoy Coding",
+    skill: "DILIGENCE",
     rating: 100,
   },
   {
-    skill: "JavaScript",
+    skill: "REACT",
     rating: 50,
   },
   {
-    skill: "React",
+    skill: "JAVASCRIPT",
     rating: 50,
   },
   {
@@ -232,6 +234,7 @@ export const jobSkills = [
     skill: "CSS",
     rating: 50,
   },
+
 ]
 
 export const schools = [
@@ -304,6 +307,16 @@ export const certMisc = {
         id: 7,
         type: "Rowing",
         icon: faWater
+      },
+      {
+        id: 8,
+        type: "Puzzles",
+        icon: faPuzzlePiece,
+      },
+      {
+        id: 9,
+        type: "Coding",
+        icon: faCode,
       },
     ]
 }

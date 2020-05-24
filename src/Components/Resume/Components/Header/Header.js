@@ -16,7 +16,7 @@ export default class Header extends Component {
         <h1 className='resumeH1'>RÉSUMÉ</h1>
         <div className='headerContainer'>
           <div className="imgDiv">
-            <img className="resumeImg" alt="image of man" src="https://i.ibb.co/BTbK9mq/IMG-1173-copy.png"/>
+            <img className="resumeImg" alt="image of man" src="https://i.ibb.co/XFdhk7m/IMG-1173-copy.png"/>
           </div>
           <div className="bubblesDiv">
             <div className="firstBubble"/>

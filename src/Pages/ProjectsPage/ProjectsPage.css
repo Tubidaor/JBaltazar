@@ -14,3 +14,17 @@
 /* .projectsContainer {
   background-color: #ffffff
 } */
+
+.projectsIntro {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 1em;
+  font-family: 'Righteous', cursive;
+  border: 2px solid #232763;
+  border-radius: 10px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
