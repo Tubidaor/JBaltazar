@@ -1,28 +1,14 @@
-
 .bubblesContainer {
-  /* margin-left: -40px; */
   position: fixed;
   bottom: 0px;
   z-index: -1;
-  /* height: 100vh;
-  width: 100vh; */
-  /* bottom: -30vh; */
-  /* overflow: hidden; */
 }
 .resumePageContainer {
   margin-top: -26px;
 }
 .App {
   overflow: hidden;
-  /* height: 100vh; */
 }
-/* main {
-  height: 100vh;
-} */
-
-/* .resumePageContainer {
-  margin-top: -12px;
-} */
 main {
   margin-top: 60px;
 }

@@ -105,38 +105,6 @@ span {
   font-weight: bold;
 }
 
-/* @media (min-width: 599px){
-  .resumeH1 {
-    padding: 10px;
-    border-bottom: 2px solid black;
-    height: 160px;
-  }
-  .resumeUl {
-    display: flex;
-    justify-content: right;
-    flex-direction: column;
-    float: right;
-  }
-  .liHeader {
-    list-style: none;
-    margin-top: -20px;
-    font-size: .9em;
-  }
-  .resumeHeader {
-    margin-top: 0px;
-    text-align: center;
-    font-size: 1.5em;
-    border-bottom: 2px solid #daa45c; 
-  }
-  .resumeImg {
-    height: 180px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-} */
-
 @media screen and (min-width: 600px) {
   .liHeader {
     font-size: 1em;

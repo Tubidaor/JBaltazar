@@ -12,7 +12,9 @@ export default function Projects(props) {
         <p>
           {proj.description}
           <br/><br/>
-          Technologies used: {proj.Tech}
+          Technologies used:
+          <br/><br/>
+          {proj.Tech.map(techL => <img className="techLogos" alt={techL.name+"logo"} src={techL.url}/>)}
           </p>
         <img 
           src={proj.imageSource}

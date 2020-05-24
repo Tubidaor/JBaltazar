@@ -10,9 +10,6 @@ export default function Bubbles(props) {
       }
       return "0 0 10px 5px"+color
     } 
-
-    
-  
     const style = {
       height: props.height,
       width: props.width,
@@ -23,12 +20,11 @@ export default function Bubbles(props) {
       "marginBottom": "auto",
       "marginLeft": props.marginLeft,
       "marginRight": "auto",
-      }
+    }
 
 
   return (
-    <div key={props.id} className={"bubbles" + " " + props.id} style={style}>
-
+    <div key={props.id} className={`bubbles ${props.id}`} style={style}>
     </div>
   )
 }

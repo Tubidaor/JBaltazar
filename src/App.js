@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Components/Header/Header';
 import Mainpage from './Pages/Mainpage/Mainpage';
 import Bubbles from './Components/Background/Background';
-import { Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import './App.css';
 import AboutMePage from './Pages/AboutMePage/AboutMePage';
 import  ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
@@ -43,6 +43,7 @@ function App() {
     heightWidth()
     return (
       <Bubbles
+        key={bubble.id}
         id={bubble.id}
         height={heightWidthNum}
         width={heightWidthNum}
@@ -73,12 +74,9 @@ function App() {
         exact path={"/resume"}
         component={ResumePage}
         />
-
-
-  
       </main>
       <footer className="bubblesContainer">
-      {displayBubbles}
+        {displayBubbles}
       </footer>
     </div>
   );

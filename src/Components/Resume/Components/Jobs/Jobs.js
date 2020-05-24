@@ -20,7 +20,6 @@ export default class Jobs extends Component {
         <div className="jobsDiv">
           <div className="jobHeadingDiv1">
             <h4>{job.company}</h4>
-            {/* <h5>{job.notes}</h5> *if needed */}
           </div>
           <div className="jobHeadingDiv2">
             <h5>{job.city}</h5>  

@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Faster+One&family=Frijole&family=Righteous&family=Ruslan+Display&display=swap');
+
 .intro {
   color: #232763;
   background: linear-gradient(#676767 60%, #232763 80%);
-  /* background: linear-gradient(#f95528 70%, #ec1b78 60%); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2em;
@@ -11,9 +11,7 @@
   -webkit-text-stroke: .1px #232763;
   margin-left: auto;
   margin-right: auto;
-
 }
-
 .h1Container {
   background:linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.8), rgba(255,255,255,.1));
 }

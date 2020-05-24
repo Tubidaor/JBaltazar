@@ -5,8 +5,6 @@ import { projects } from '../../Data';
 
 export default function ProjectsPage(props) {
 
-
-
   return (
     <div className="projectsContainer">
       <h1 className="projectsH1">Projects</h1>

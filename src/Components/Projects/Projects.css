@@ -1,8 +1,6 @@
 .projectsContainer {
   margin-bottom: 20px;
 }
-
-
 .project {
   display: flex;
   justify-content: center;
@@ -16,24 +14,20 @@
   padding: 5px;
   margin-top: 10px;
   background-color: #ffffff;
+  font-family: monospace;
 }
-
 .projectsH3 {
   color: #232763;
   background: linear-gradient(#676767 60%, #232763 80%);
-  /* background: linear-gradient(#f95528 70%, #ec1b78 60%); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2em;
   font-family: 'Righteous', cursive;
   -webkit-text-stroke: .1px #232763;
   text-align: center;
-  /* margin-left: auto;
-  margin-right: auto; */
   font-size: 1.5em;
   margin-top: 10px;
 }
-
 .project img {
   height: auto;
   width: 80%;
@@ -44,7 +38,6 @@
   left: 0px;
   top: 0px;
 }
-
 .buttonContainer {
   display: flex;
   flex-direction: column;
@@ -52,17 +45,13 @@
   margin-top: 2px;
   margin-bottom: 20px;
 }
-
 button {
   margin-top: 4px;
   width: 100px;
-  /* margin-bottom: 6px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #232763;
   color: #e94498;
-  /* height: 30px; */
-  /* width: 100px; */
   font-size: 1em;
   border-radius: 8px;
   cursor: pointer;
@@ -74,9 +63,13 @@ button {
   border-radius: 10px;
   padding: 4px;
   font-size: 1em;
-  font-family: 'Righteous', cursive;
   border: 2px solid #232763;
   border-radius: 10px;
+}
+img.techLogos {
+  height: 40px;
+  width: auto;
+  margin: 1px;
 }
 
 

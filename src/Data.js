@@ -38,8 +38,25 @@ export const projects = [
   {
     id: 1,
     title: "Dodgers Trivia",
-    description: "A short quiz about the Los Angeles Dodgers.",
-    Tech: 'CSS, HTML, JavaScript, jQuery.',
+    description: "A short quiz about the Los Angeles Dodgers",
+    Tech: [ 
+      {
+        name: 'JavaScript',
+        url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+      },
+      {
+        name: 'HTML',
+        url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+      },
+      {
+        name: 'CSS',
+        url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+      },
+      {
+        name: 'jQuery',
+        url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
+      },
+    ],
     imageSource: "https://i.ibb.co/LRqW1Sp/Dodgers-App-Screen-Shot.png",
     imageAlt: "Screen Shot of Juan Baltazar's web app about Dodgers trivia.",
     projectURL: "https://tubidaor.github.io/quiz-app/",
@@ -49,7 +66,24 @@ export const projects = [
     id: 2,
     title: "Video Game Discovery",
     description: "Discover video games: past and present",
-    Tech: 'CSS, HTML, JavaScript, jQuery.',
+    Tech: [ 
+      {
+        name: 'JavaScript',
+        url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+      },
+      {
+        name: 'HTML',
+        url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+      },
+      {
+        name: 'CSS',
+        url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+      },
+      {
+        name: 'jQuery',
+        url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
+      },
+    ],
     imageSource: "https://gist.githubusercontent.com/Tubidaor/f2fa6d8791e90ee911b3399a80fd5527/raw/1efcaaa80d73e4f3740c64be8190250b4f96ed8b/Discovery%2520App%2520320vp.png",
     imageAlt: "Screen Shot of Video Game Discovery App.",
     projectURL: "https://tubidaor.github.io/VideoGameDiscovery/",
@@ -59,14 +93,42 @@ export const projects = [
     id: 3,
     title: "Chatter",
     description: "Keep track of child's word count",
-    Tech: 'React, Node, Jax, PostreSQL, CSS, HTML, JavaScript, jQuery.',
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'Node',
+          url: 'https://i.ibb.co/C77d9SM/icons8-nodejs-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        },
+        {
+          name: 'jQuery',
+          url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
+        },
+        {
+          name: 'PostgreSQl',
+          url: 'https://i.ibb.co/SX68p6g/icons8-postgresql-50.png'
+        }
+      ],
     imageSource: "https://i.ibb.co/CtxTgy0/chatter-app-juanbaltazar-now-sh-3.png",
     imageAlt: "Screen Shot of Chatter App.",
     projectURL: "https://chatter-app.juanbaltazar.now.sh/",
     projectRepo: "https://github.com/Tubidaor/chatter-app",
   },
-
-
 ]
 
 export default {
