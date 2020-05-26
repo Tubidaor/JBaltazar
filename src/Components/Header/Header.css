@@ -38,11 +38,12 @@
   border-radius: 15%;
   transition: 0.3s ease;
   display: none;
+  width: 200px;
 }
 #hamburger {
   width: 35px;
-  margin-top: 6px;
-  margin-right: 4px;
+  margin-top: 8px;
+  margin-right: 10px;
   height: 30px;
   cursor: pointer;
 }
@@ -86,6 +87,7 @@
   right: 0px;
   top: 70px;
   z-index: 1;
+  width: 110px;
 }
 .change .bar {
   background-color: #F9E100;
@@ -104,6 +106,7 @@
 .menu.change {
   margin-right: 10px;
   margin-left: -4px;
+  padding-inline-start: revert;
 }
 .change {
   display: block;
@@ -124,9 +127,9 @@
     margin-top: 0px;
     margin-left: auto;
     margin-right: 0px;
-    width: 300px;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    padding-inline-start: -1px !important;
   }
   .menu li::after{
     content: " |";
@@ -141,17 +144,18 @@
     margin-left: 2px;
   }
   .menu-bg {
-    margin-left: none;
-    margin-right: -30px;
+    margin-left: auto;
+    margin-right: 10px;
     margin-top: -26px;
     background: none;
     border-radius: none;
     transition: none;
     display: block;
-  }
-  .change-bg {
-    display: block;
-    margin-top: -65px;
     width: 340px;
   }
+  /* .change-bg {
+    display: block;
+    margin-top: -65px;
+    width: 280px;
+  } */
 }
