@@ -58,7 +58,7 @@ export const projects = [
       },
     ],
     imageSource: "https://i.ibb.co/LRqW1Sp/Dodgers-App-Screen-Shot.png",
-    imageAlt: "Screen Shot of Juan Baltazar's web app about Dodgers trivia.",
+    imageAlt: "Screenshot of Juan Baltazar's web app about Dodgers trivia.",
     projectURL: "https://tubidaor.github.io/quiz-app/",
     projectRepo: "https://github.com/Tubidaor/quiz-app",
   },
@@ -85,7 +85,7 @@ export const projects = [
       },
     ],
     imageSource: "https://gist.githubusercontent.com/Tubidaor/f2fa6d8791e90ee911b3399a80fd5527/raw/1efcaaa80d73e4f3740c64be8190250b4f96ed8b/Discovery%2520App%2520320vp.png",
-    imageAlt: "Screen Shot of Video Game Discovery App.",
+    imageAlt: "Screenshot of Video Game Discovery App.",
     projectURL: "https://tubidaor.github.io/VideoGameDiscovery/",
     projectRepo: "https://github.com/Tubidaor/VideoGameDiscovery",
   },
@@ -125,13 +125,42 @@ export const projects = [
         }
       ],
     imageSource: "https://i.ibb.co/CtxTgy0/chatter-app-juanbaltazar-now-sh-3.png",
-    imageAlt: "Screen Shot of Chatter App.",
+    imageAlt: "Screenshot of Chatter App.",
     projectURL: "https://chatter-app.juanbaltazar.now.sh/",
     projectRepo: "https://github.com/Tubidaor/chatter-app",
+  },
+  {
+    id: 4,
+    title: "John Conway's Game of Life",
+    description: "The Game of Life built with React",
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        },
+      ],
+    imageSource: "https://i.ibb.co/DLfBXWt/Screenshot-2020-06-05-John-Conway-s-Game-of-Life-1.png",
+    imageAlt: "Screenshot of Game of Life.",
+    projectURL: "https://tubidaor.github.io/gameOfLife/",
+    projectRepo: "https://github.com/Tubidaor/gameOfLife",
   },
 ]
 
 export default {
   intro,
   aboutMe,
+  projects,
 }
