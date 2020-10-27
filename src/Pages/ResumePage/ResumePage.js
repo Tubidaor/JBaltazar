@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Resume from '../../Components/Resume/Resume'
 
 export default function ResumePage(props) {

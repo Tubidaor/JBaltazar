@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import './Jobs.css'
 
 
 
 export default class Jobs extends Component {
-
-  render() {
   
+  render() {
     const { job } = this.props
     const acompData = job.accomplishments
     const acompDisplay = acompData.map(acomp =>

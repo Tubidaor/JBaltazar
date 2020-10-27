@@ -1,14 +1,10 @@
-import React from 'react';
+import React from 'react'
 import './Misc.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
-
 export default function CertMiscItems(props) {
-
   const cert = props.cert
   const displayCert = cert.map(item => {
-
     return (
       <li key={item.id} className="liMisc">
         <p className="miscP">

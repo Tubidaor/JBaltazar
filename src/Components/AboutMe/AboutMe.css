@@ -2,12 +2,8 @@
 
 .h1AboutMe {
   color: #232763;
-  background: linear-gradient(#676767 60%, #232763 80%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 2em;
-  font-family: 'Righteous', cursive;
-  -webkit-text-stroke: .1px #232763;
+  font-family: "Fascinate Inline";
   text-align: center;
 }
 .aboutMeContainer {

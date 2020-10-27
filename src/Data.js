@@ -30,13 +30,14 @@ export const aboutMe = [
   {
     id:4,
     para: `Besides coding, some of my interests include reading, music, sports (fantasy and otherwise), motorcycles, 
-    trying to make people laugh, how to be a better father, and how to be a better person.`,
+    trying to make people laugh, and being a father to an amazing girl.`,
   }
 ]
 
 export const projects = [
   {
     id: 1,
+    date_completed: '8/21/2019',
     title: "Dodgers Trivia",
     description: "A short quiz about the Los Angeles Dodgers",
     Tech: [ 
@@ -55,15 +56,17 @@ export const projects = [
       {
         name: 'jQuery',
         url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
-      },
+      }
     ],
     imageSource: "https://i.ibb.co/LRqW1Sp/Dodgers-App-Screen-Shot.png",
     imageAlt: "Screenshot of Juan Baltazar's web app about Dodgers trivia.",
     projectURL: "https://tubidaor.github.io/quiz-app/",
-    projectRepo: "https://github.com/Tubidaor/quiz-app",
+    projectRepoClient: "https://github.com/Tubidaor/quiz-app",
+    projectRepoServer: "None"
   },
   {
     id: 2,
+    date_completed: '9/29/2019',
     title: "Video Game Discovery",
     description: "Discover video games: past and present",
     Tech: [ 
@@ -82,15 +85,17 @@ export const projects = [
       {
         name: 'jQuery',
         url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
-      },
+      }
     ],
     imageSource: "https://gist.githubusercontent.com/Tubidaor/f2fa6d8791e90ee911b3399a80fd5527/raw/1efcaaa80d73e4f3740c64be8190250b4f96ed8b/Discovery%2520App%2520320vp.png",
     imageAlt: "Screenshot of Video Game Discovery App.",
     projectURL: "https://tubidaor.github.io/VideoGameDiscovery/",
-    projectRepo: "https://github.com/Tubidaor/VideoGameDiscovery",
+    projectRepoClient: "https://github.com/Tubidaor/VideoGameDiscovery",
+    projectRepoServer: "None"
   },
   {
     id: 3,
+    date_completed: '4/20/2020',
     title: "Chatter",
     description: "Keep track of child's word count",
     Tech:
@@ -124,13 +129,15 @@ export const projects = [
           url: 'https://i.ibb.co/SX68p6g/icons8-postgresql-50.png'
         }
       ],
-    imageSource: "https://i.ibb.co/CtxTgy0/chatter-app-juanbaltazar-now-sh-3.png",
+    imageSource: "https://i.ibb.co/bQVZxkD/Chatter-App-Screen-Shot.png",
     imageAlt: "Screenshot of Chatter App.",
     projectURL: "https://chatter-app.juanbaltazar.now.sh/",
-    projectRepo: "https://github.com/Tubidaor/chatter-app",
+    projectRepoClient: "https://github.com/Tubidaor/chatter-app",
+    projectRepotServer: "https://github.com/Tubidaor/chatter-server"
   },
   {
     id: 4,
+    date_completed: '6/06/2020',
     title: "John Conway's Game of Life",
     description: "The Game of Life built with React",
     Tech:
@@ -150,12 +157,55 @@ export const projects = [
         {
           name: 'CSS',
           url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
-        },
+        }
       ],
     imageSource: "https://i.ibb.co/DLfBXWt/Screenshot-2020-06-05-John-Conway-s-Game-of-Life-1.png",
     imageAlt: "Screenshot of Game of Life.",
     projectURL: "https://tubidaor.github.io/gameOfLife/",
-    projectRepo: "https://github.com/Tubidaor/gameOfLife",
+    projectRepoClient: "https://github.com/Tubidaor/gameOfLife",
+    projectRepoServer: "None"
+  },
+  {
+    id: 5,
+    date_completed: '10/25/2020',
+    title: "Te Quiero Mucho",
+    description: "An app for journaling, mood, and relationship tracking.",
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'Node',
+          url: 'https://i.ibb.co/C77d9SM/icons8-nodejs-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        },
+        {
+          name: 'jQuery',
+          url: 'https://i.ibb.co/8X0jhXM/icons8-jquery-50.png',
+        },
+        {
+          name: 'PostgreSQl',
+          url: 'https://i.ibb.co/SX68p6g/icons8-postgresql-50.png'
+        }
+      ],
+    imageSource: "https://i.ibb.co/Dp6h1st/TQMCover.png",
+    imageAlt: "Screenshot of Te Quiero Mucho App.",
+    projectURL: "https://te-quiero-mucho-app.juanbaltazar.vercel.app/",
+    projectRepoClient: "https://github.com/Tubidaor/te-quiero-mucho-client",
+    projectRepoServer: "https://github.com/Tubidaor/teQuieroMuchoServer"
   },
 ]
 

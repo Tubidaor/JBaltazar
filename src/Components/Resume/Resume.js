@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import './Resume.css';
-import Header from './Components/Header/Header';
-import ProfessionalExp from './Sections/ProfessionalExp';
-import SkillsSection from './Sections/SoftwareSkills';
+import React, { Component } from 'react'
+import './Resume.css'
+import Header from './Components/Header/Header'
+import ProfessionalExp from './Sections/ProfessionalExp'
+import SkillsSection from './Sections/SoftwareSkills'
 import IntroSection from './Sections/Introduction'
-import Education from './Sections/Education';
-import CertMiscSection from './Sections/CertMisc';
-import { certMisc } from './JobData';
+import Education from './Sections/Education'
+import CertMiscSection from './Sections/CertMisc'
+import { certMisc } from './JobData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons';
-
+import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 export default class Resume extends Component {
 
@@ -34,7 +33,6 @@ export default class Resume extends Component {
   }
 
   render() {
-
     const { cert, languages, hobbies } = certMisc
 
     function displaySideBySide() {

@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 import './Intro.css'
-
 
 export default function Intro(props) {
   const style = {
     top: props.top,
     left: props.left,
-    zIndex: "1",
+    zIndex: "1"
   }
 
   return (

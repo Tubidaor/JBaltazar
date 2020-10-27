@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import CertMiscItems from '../Components/Misc/Misc.js'
 
 export default function CertMiscSection(props) {

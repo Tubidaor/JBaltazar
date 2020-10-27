@@ -1,8 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './Skills.css'
 
 export default function Skills(props) {
-
   const skills = props.skills.map(skill => {
     const styles = {
       width: `${skill.rating}%`

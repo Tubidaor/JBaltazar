@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './Components/Header/Header';
-import Mainpage from './Pages/Mainpage/Mainpage';
-import Bubbles from './Components/Background/Background';
+import React from 'react'
+import Header from './Components/Header/Header'
+import Mainpage from './Pages/Mainpage/Mainpage'
+import Bubbles from './Components/Background/Background'
 import { Route } from 'react-router-dom'
 import './App.css';
-import AboutMePage from './Pages/AboutMePage/AboutMePage';
-import  ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
-import ResumePage from './Pages/ResumePage/ResumePage';
+import AboutMePage from './Pages/AboutMePage/AboutMePage'
+import  ProjectsPage from './Pages/ProjectsPage/ProjectsPage'
+import ResumePage from './Pages/ResumePage/ResumePage'
 
 function App() {
 

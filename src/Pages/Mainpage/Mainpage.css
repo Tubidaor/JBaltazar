@@ -3,6 +3,8 @@
   justify-content: space-between;
   flex-direction: row;
   height: 100vh;
+  /* background-color: black;
+  z-index: -3; */
 }
 .mainImg {
   position: relative;
@@ -37,7 +39,6 @@
     width: 50%;
   }
 }
-
 @media screen and (orientation: landscape) and (max-width: 667px)  {
   .containerMain {
     margin-top: -140px;
@@ -47,7 +48,6 @@
     margin-top: 120px;
   }
 }
-
 @media screen and (orientation: landscape) and (max-width: 736px) and (max-height: 414px) {
   .containerMain {
     margin-top: -140px;

@@ -1,5 +1,5 @@
-import React from 'react';
-import './Background.css';
+import React from 'react'
+import './Background.css'
 
 export default function Bubbles(props) {
 
@@ -21,7 +21,6 @@ export default function Bubbles(props) {
       "marginLeft": props.marginLeft,
       "marginRight": "auto",
     }
-
 
   return (
     <div key={props.id} className={`bubbles ${props.id}`} style={style}>

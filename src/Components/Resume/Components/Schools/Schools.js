@@ -1,8 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './Schools.css'
 
 export default function Schools(props) {
-
   let displaySchools = props.schools.map(school =>
     <div key={school.id} className="school">
       <div className="schoolNameDiv">

@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import './Header.css';
+import React, { Component } from 'react'
+import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCity } from '@fortawesome/free-solid-svg-icons';
-import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-import { faInbox } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import { faCity } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faInbox } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default class Header extends Component {
 
@@ -16,21 +15,30 @@ export default class Header extends Component {
         <h1 className='resumeH1'>RÉSUMÉ</h1>
         <div className='headerContainer'>
           <div className="imgDiv">
-            <img className="resumeImg" alt="headshot of man" src="https://i.ibb.co/XFdhk7m/IMG-1173-copy.png"/>
+            <img
+              className="resumeImg"
+              alt="headshot of man"
+              src="https://i.ibb.co/XFdhk7m/IMG-1173-copy.png"
+            />
           </div>
           <div className="bubblesDiv">
             <div className="firstBubble"/>
             <div className="secondBubble"/>
             <div className="thirdBubble"/>
             <div className="fourthBubble">
-              <p className="bubbleP"> Hi, my name is <span>Juan Baltazar</span>, I'd like to work for <span>you</span>.</p>
+              <p className="bubbleP">
+                Hi, my name is <span>Juan Baltazar</span>,
+                I'd like to work for <span>you</span>.
+              </p>
             </div>
           </div>
         </div>
 
         <ul className="resumeUl">
           <li className="liHeader">
-            <p className='cityZip'> <FontAwesomeIcon icon={faCity}/> Culver City, CA 90230</p>
+            <p className='cityZip'>
+              <FontAwesomeIcon icon={faCity}/> Culver City, CA 90230
+            </p>
           </li>
           <li className="liHeader"> 
             <p>
@@ -41,7 +49,9 @@ export default class Header extends Component {
             </p>
           </li>
           <li className="liHeader">
-            <p className='phone'> <FontAwesomeIcon icon={faMobileAlt}/> (818) 383-8869</p>
+            <p className='phone'>
+              <FontAwesomeIcon icon={faMobileAlt}/> (818) 383-8869
+            </p>
           </li>
           <li className="liHeader">
             <p>
