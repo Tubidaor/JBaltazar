@@ -30,6 +30,9 @@ export default class Mainpage extends React.Component {
     
     return (
       <div className="mainDiv">
+          <header className="mainPageHeader">
+            <h1>Juan Baltazar Portfolio Page</h1>
+          </header>
         <div className="containerMain" >
           <div className="imgContainer">
             <img
