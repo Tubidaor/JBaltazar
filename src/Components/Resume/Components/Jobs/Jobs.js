@@ -4,7 +4,7 @@ import './Jobs.css'
 
 
 export default class Jobs extends Component {
-  
+
   render() {
     const { job } = this.props
     const acompData = job.accomplishments
@@ -15,17 +15,23 @@ export default class Jobs extends Component {
       )
 
     return (
-      <div className={`jobsCont${job.id}`}>
+      <div className={`jobsCon`}>
         <div className="jobsDiv">
-          <div className="jobHeadingDiv1">
-            <h4>{job.company}</h4>
-          </div>
+          <header className="jobHeadingDiv1">
+            <h3>{job.company}</h3>
+          </header>
           <div className="jobHeadingDiv2">
-            <h5>{job.city}</h5>  
-            <h5>{job.begDate} - {job.endDate}</h5>
+            <header>
+              <h4>{job.city}</h4>  
+            </header>
+            <header>
+              <h4>{job.begDate} - {job.endDate}</h4>
+            </header>
           </div>
         </div>
-        <h5 className="jobTitle">{job.jobTitle}</h5>
+        <header>
+          <h4 className="jobTitle">{job.jobTitle}</h4>
+        </header>
         <p className="jobResponsibilities">{job.responsibilities}</p>
         <ul className="ulJobs">
           {acompDisplay}

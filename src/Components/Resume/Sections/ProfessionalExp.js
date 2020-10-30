@@ -14,7 +14,9 @@ export default class ProfessionalExp extends Component {
     
     return(
       <section className="profExSection">
-        <h3>Professional Experience</h3>
+        <header>
+          <h2>Professional Experience</h2>
+        </header>
         {displayJobs}
       </section>
     )

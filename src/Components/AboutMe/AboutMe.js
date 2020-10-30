@@ -10,7 +10,9 @@ export default function AboutMe(props) {
 
   return(
     <div className="aboutMeContainer">
-        <h1 className="h1AboutMe">About Me</h1>
+        <header>
+          <h1 className="h1AboutMe">About Me</h1>
+        </header>
         <div className="aboutMePContainer">
           {displayPs}
         </div>

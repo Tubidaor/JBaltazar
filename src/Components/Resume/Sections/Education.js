@@ -8,7 +8,9 @@ export default function Education(props) {
   
   return (
     <section className="edSection">
-      <h3>Education</h3>
+      <header>
+        <h2>Education</h2>
+      </header>
       <Schools schools={schoolData}/>
     </section>
   )

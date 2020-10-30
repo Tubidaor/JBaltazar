@@ -5,12 +5,20 @@ export default function Schools(props) {
   let displaySchools = props.schools.map(school =>
     <div key={school.id} className="school">
       <div className="schoolNameDiv">
-        <h4>{school.school}</h4>
-        <h5>{school.city}</h5>
+        <header>
+          <h3>{school.school}</h3>
+        </header>
+        <header className="schoolCity">
+          <h4>{school.city}</h4>
+        </header>
       </div>
       <div className="edDegreeYearDiv">
-        <h5>{school.degree}</h5>
-        <h5>{school.gradYear}</h5>
+        <header>
+          <h4>{school.degree}</h4>
+        </header>
+        <header>
+          <h4>{school.gradYear}</h4>
+        </header>
       </div>
     </div>
   )

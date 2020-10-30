@@ -5,7 +5,9 @@ export default function CertMiscSection(props) {
 
   return (
     <section className="certMiscSection">
-      <h3>{props.title}</h3>
+      <header>
+        <h2>{props.title}</h2>
+      </header>
       <CertMiscItems cert={props.cert}/>
     </section>
   )

@@ -16,3 +16,13 @@
 .schoolNameDiv h5 {
   margin-top: -16px;
 }
+.school H3 {
+  font-size: 1rem;
+}
+.school h4 {
+  font-size: .83rem;
+}
+.schoolCity {
+  margin-top: -10px;
+  margin-bottom: 25px;
+}

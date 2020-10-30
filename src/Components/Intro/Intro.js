@@ -10,9 +10,11 @@ export default function Intro(props) {
 
   return (
     <div className="h1Container">
-      <h1 className={props.className} id={props.id} style={style}>
-        {props.text}
-      </h1>
+      <header>
+        <h1 className={props.className} id={props.id} style={style}>
+          {props.text}
+        </h1>
+      </header>
     </div>
   )
 }

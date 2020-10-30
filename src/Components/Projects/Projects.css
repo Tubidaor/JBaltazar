@@ -15,25 +15,30 @@
   background-color: rgba(225, 227, 234, 1);
   font-family: monospace;
 }
-.projectsH3 {
-  /* color: #232763;
-  background: linear-gradient(#676767 60%, #232763 80%); */
-  /* background-clip: text;
-  -webkit-text-fill-color: transparent; */
+.projectCon {
+  margin-top: 25px;
+}
+.projectsH2Con {
+  background-color: #232763;
+  border-radius: 6px 6px 0px 0px;
+  height: 50px;
+  position: relative;
+}
+.projectsH2 {
   font-family: 'Righteous', cursive;
   -webkit-text-stroke: .1px #232763;
-  text-align: center;
-  font-size: 1.5em;
-  margin-top: -6px;
+  font-size: 1.2em;
   color: #e94498;
-  background-color: #232763;
-  height: 50px;
-  padding-top: 20px;
-  border-radius: 6px 6px 0px 0px;
-  width: 100%;
-  margin-top: 0px;
+  padding: 4px;
+  position: absolute;
+  margin: 0;              
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
 }
-.projectH5 {
+.projectP3 {
   font-size: 1em;
   font-family: monospace;
   margin-top: -10px;

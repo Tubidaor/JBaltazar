@@ -4,7 +4,9 @@ export default function IntroSection(props) {
   
   return (
     <section className="introSection">
-      <h3>Introduction</h3>
+      <header>
+        <h2>Introduction</h2>
+      </header>
       <p>
         Thank you for taking the time to read this.
         I am attempting to change careers.

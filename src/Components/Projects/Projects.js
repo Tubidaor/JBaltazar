@@ -8,12 +8,15 @@ export default function Projects(props) {
   let renderProjects = displayProjects.map(proj =>
     <div key={proj.id} className="projectsDiv">
       <section className="project number-1">
-        <h3 className="projectsH3">{proj.title}</h3>
+        <header className="projectsH2Con">
+          <h2 className="projectsH2">{proj.title}</h2>
+        </header>
         <div className="projectCon">
-          <h5 className="projectH5">
+          <p className="projectP3">
             Date Created:
               <span className="dateCreatedSpan"> {proj.date_completed}</span>
-          </h5>
+          </p>
+          <br/>
           <p className="projectsP">
             {proj.description}
             <br/><br/>

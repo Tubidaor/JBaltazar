@@ -9,7 +9,9 @@ export default class SkillsSection extends Component {
     
     return (
       <section className="skillsSection">
-        <h3>Skills</h3>
+        <header>
+          <h2>Skills</h2>
+        </header>
         <Skills skills={skills}/>
       </section>
     )
