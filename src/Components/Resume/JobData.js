@@ -201,36 +201,41 @@ export const jobSkills = [
   },
   {
     skill: "REACT",
-    rating: 50,
+    rating: 80,
   },
   {
     skill: "JAVASCRIPT",
-    rating: 50,
-  },
-  {
-    skill: "JXS",
-    rating: 50,
+    rating: 80,
   },
   {
     skill: "JQUERY",
-    rating: 50,
+    rating: 60,
   },
   {
-    skill: "NODE",
-    rating: 50,
+    skill: "NODE.JS",
+    rating: 70,
   },
   {
     skill: "POSTGRESQL",
-    rating: 50,
+    rating: 70,
   },
   {
     skill: "HTML",
-    rating: 50,
+    rating: 80,
   },
   {
     skill: "CSS",
-    rating: 50,
+    rating: 80,
   },
+  {
+    skill: "EXPRESS.JS",
+    rating: 70,
+  },
+  {
+    skill: "GITHUB",
+    rating: 80,
+  },
+
 
 ]
 
