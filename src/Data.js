@@ -207,6 +207,36 @@ export const projects = [
     projectRepoClient: "https://github.com/Tubidaor/te-quiero-mucho-client",
     projectRepoServer: "https://github.com/Tubidaor/teQuieroMuchoServer"
   },
+  {
+    id: 6,
+    date_completed: '11/30/2020',
+    title: "Find the Letter",
+    description: "A random maze generator and a way to learn ABC's.",
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        },
+      ],
+    imageSource: "https://i.ibb.co/fFrXsX1/Screenshot-2020-12-02-Random-maze-generator.png",
+    imageAlt: "Screenshot of Random Maze Generator App.",
+    projectURL: "https://maze-beryl.vercel.app/",
+    projectRepoClient: "https://github.com/Tubidaor/mazerunner",
+    projectRepoServer: "None"
+  },
 ]
 
 export default {
