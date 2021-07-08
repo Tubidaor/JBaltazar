@@ -16,21 +16,26 @@ export const aboutMe = [
   },
   {
     id:2,
-    para: `I am a Full Stack Developer stuck in the body of a CPA. After 12 years as an accounting professional, 
-      I decided to pursue what brings me joy and fulfillment: coding, problem solving, and building stuff.`,
+    para: `I have been working as an accountant for the last 13 years. I have 
+    been coding off and on, on my spare time, for the last 2 years and I would 
+    like to change careers into the technology field. I took a full stack
+    program at Thinkful (https://www.thinkful.com) and I know Javascript, HTML,
+    CSS, PostgreSQL, Node.js, and React.js. I would like to gain more knowledge
+    and experience to be proficient enough to persue this as my profession.`,
   },
   {
     id:3,
-    para: `On 12/31/2018 I was laid off from the only job I knew as an adult. What some may think of as an unfortunate event,
-      I looked at as a new opportunity. I was reminded of the movie “Up in the Air”, and what George Clonney’s character 
-      told J.K Simmons’ character. “How much did they first pay you to give up on your dreams?” I decided that enough was
-      enough and I enrolled in the Thinkful boot camp. I took my enjoyment of creating macros that I learned while working 
-      as an accountant and I am doing what makes me happy, finally.`,
+    para: `I have the ability to learn and solve problems on my own.
+    I am able to adapt and I am curious as to how things work. I love learning
+    new things and I have plenty of experience working accross all departments
+    and with many different types of people. I also have great time management
+    skills and experience with managing and leading a team.`,
   },
   {
     id:4,
-    para: `Besides coding, some of my interests include reading, music, sports (fantasy and otherwise), motorcycles, 
-    trying to make people laugh, and being a father to an amazing girl.`,
+    para: `Besides coding, some of my interests include reading, meditating,
+    music, sports (fantasy and otherwise), motorcycles, trying to make people
+    laugh, and being a father to an amazing girl.`,
   }
 ]
 
