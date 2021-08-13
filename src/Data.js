@@ -285,7 +285,7 @@ export const projects = [
     id: 8,
     date_completed: '7/31/2021',
     title: "Connect 4",
-    description: `The classic game, Connect 4, with React`,
+    description: `The classic game, Connect 4, with React.`,
     Tech:
       [
         {
