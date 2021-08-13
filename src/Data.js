@@ -17,17 +17,17 @@ export const aboutMe = [
   {
     id:2,
     para: `I have been working as an accountant for the last 13 years. I have 
-    been coding off and on, on my spare time, for the last 2 years and I would 
+    been coding off and on, on my spare time, for the last 2 years. I would 
     like to change careers into the technology field. I took a full stack
     program at Thinkful (https://www.thinkful.com) and I know Javascript, HTML,
     CSS, PostgreSQL, Node.js, and React.js. I would like to gain more knowledge
-    and experience to be proficient enough to persue this as my profession.`,
+    and experience to be proficient enough to pursue this as my profession.`,
   },
   {
     id:3,
     para: `I have the ability to learn and solve problems on my own.
     I am able to adapt and I am curious as to how things work. I love learning
-    new things and I have plenty of experience working accross all departments
+    new things and I have plenty of experience working across all departments
     and with many different types of people. I also have great time management
     skills and experience with managing and leading a team.`,
   },
@@ -240,6 +240,75 @@ export const projects = [
     imageAlt: "Screenshot of Random Maze Generator App.",
     projectURL: "https://maze-beryl.vercel.app/",
     projectRepoClient: "https://github.com/Tubidaor/mazerunner",
+    projectRepoServer: "None"
+  },
+  {
+    id: 7,
+    date_completed: '6/1/2021',
+    title: "StockChef",
+    description: `A shopping list and inventory management app that gives you
+      recipes based on what you have in stock.`,
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        },
+        {
+          name: 'Node',
+          url: 'https://i.ibb.co/C77d9SM/icons8-nodejs-50.png',
+        },
+        {
+          name: 'PostgreSQl',
+          url: 'https://i.ibb.co/SX68p6g/icons8-postgresql-50.png'
+        }
+      ],
+    imageSource: "https://i.ibb.co/0spdZtw/Screen-Shot-2021-07-17-at-9-08-43-AM.png.png",
+    imageAlt: "Screenshot of StockChef App.",
+    projectURL: "https://stockchef.vercel.app/",
+    projectRepoClient: "https://github.com/Tubidaor/im-hungry",
+    projectRepoServer: "https://github.com/Tubidaor/im-hungry-server"
+  },
+  {
+    id: 8,
+    date_completed: '7/31/2021',
+    title: "Connect 4",
+    description: `The classic game, Connect 4, with React`,
+    Tech:
+      [
+        {
+          name: 'React',
+          url:  'https://i.ibb.co/mRvKjFm/icons8-react-50.png',
+        },
+        {
+          name: 'JavaScript',
+          url: 'https://i.ibb.co/VpLZC4b/icons8-javascript-50.png',
+        },
+        {
+          name: 'HTML',
+          url: 'https://i.ibb.co/xqp2PjK/icons8-html-50.png',
+        },
+        {
+          name: 'CSS',
+          url: 'https://i.ibb.co/kQTT2kx/icons8-css-50.png',
+        }
+      ],
+    imageSource: "https://i.ibb.co/RjnwZbd/Screen-Shot-2021-08-01-at-10-03-30-PM.png",
+    imageAlt: "Screenshot of Connect 4 app.",
+    projectURL: "https://connect-four-three.vercel.app/",
+    projectRepoClient: "https://github.com/Tubidaor/connect-four",
     projectRepoServer: "None"
   },
 ]

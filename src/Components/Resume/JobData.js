@@ -15,8 +15,22 @@ import {
 export const jobData = [
   {
     id: 1,
+    company: 'Coinbase, Inc.',
+    notes: '(Contract through Sove IT Strategists',
+    city: 'Los Angeles, CA (Remote)',
+    begDate: 'Feb 2021',
+    endDate: 'Present',
+    jobTitle: 'Sr Accountant',
+    responsibilities: `Duties and responsibilities mainly consist of assisting
+    in ensuring the proper accounting treatment for a subsidiary under Coinbase,
+    Inc., which transacts with institutional investors.`,
+    accomplishments: [
+    ]
+  },
+  {
+    id: 2,
     company: 'Prospect Medical Holdings, Inc.',
-    notes: '(Contract based through Beacon DLC)',
+    notes: '(Contract through Beacon DLC)',
     city: 'Los Angeles, CA',
     begDate: 'Aug 2019',
     endDate: 'March 2020',
@@ -28,14 +42,15 @@ export const jobData = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     company: 'Atom Tickets, LLC',
     notes: '',
     city: 'Santa Monica, CA',
     begDate: 'Jan 2019',
     endDate: 'July 2019',
     jobTitle: 'Assistant Controller',
-    responsibilities: 'Assisted in managing and monitoring all accounting operations to ensure timely, complete, and accurate financial data.',
+    responsibilities: `Assisted in managing and monitoring all accounting
+    operations to ensure timely, complete, and accurate financial data.`,
     accomplishments: [
       'Shortened vendor payment cycles by 4 days.',
       'Automated invoice creation and disbursement for Accounts Receivables.',
@@ -45,14 +60,15 @@ export const jobData = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
     begDate: 'Jan 2013',
     endDate: 'Dec 2018',
     jobTitle: 'Manager of Accounting ',
-    responsibilities: 'Oversaw the accurate and timely accounting over commission revenue ($ 1B plus annually) and expenses for four companies.',
+    responsibilities: `Oversaw the accurate and timely accounting over
+    commission revenue ($ 1B plus annually) and expenses for four companies.`,
     accomplishments: [
       'Collaborated with Asst. Controller, Controller, and CFO, who are Big 4 (KPMG) alumni ',
       'Provided coaching and development to team members',
@@ -66,14 +82,15 @@ export const jobData = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
     begDate: 'Jan 2010',
     endDate: 'Dec 2012',
     jobTitle: 'Sr. Accountant',
-    responsibilities: 'Reviewed and approved journal entries, reconciliations, and revenue reporting.',
+    responsibilities: `Reviewed and approved journal entries, reconciliations,
+    and revenue reporting.`,
     accomplishments: [
       'Automated several journal entries for the commissions department, saving 16 hours a month',
       'Automated report to analyze net capital variances and deficiencies, saving 8 hours a month',
@@ -83,14 +100,16 @@ export const jobData = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
     begDate: 'Oct 2007',
     endDate: 'Dec 2009',
     jobTitle: 'Staff Accountant',
-    responsibilities: 'Prepared journal entries for commission revenue and expenses, account receivable, payroll, intercompany allocations, and any other miscellaneous entries.',
+    responsibilities: `Prepared journal entries for commission revenue and
+    expenses, account receivable, payroll, intercompany allocations, and any
+    other miscellaneous entries.`,
     accomplishments: [
       
     ]
@@ -100,27 +119,58 @@ export const jobData = [
 export const jobDataFull = [
   {
     id: 1,
+    company: 'Coinbase, Inc.',
+    notes: '(Contract through Solve IT Strategist)',
+    city: 'Los Angeles, CA (Remote)',
+    begDate: 'Feb 2021',
+    endDate: 'Present',
+    jobTitle: 'Sr Accountant',
+    responsibilities: `Duties and responsibilities mainly consist of assisting
+    in ensuring the proper accounting treatment for a subsidiary under Coinbase,
+    Inc., which transacts with institutional investors. Duties include recording
+    of cash, custodial liabilities, receivables, payables, revenue, operating
+    expenses, crypto-currency inventory, and any miscellaneous items that may
+    arise during month-end close. Duties also include preparing reconciliations,
+    writing documents and procedures, fluctuation analysis, and assisting in ad
+    hoc requests and projects.`,
+    accomplishments: [
+    ]
+  },
+  {
+    id: 2,
     company: 'Prospect Medical Holdings, Inc.',
-    notes: '(Contract based through Beacon DLC)',
+    notes: '(Contract through Beacon DLC)',
     city: 'Los Angeles, CA',
     begDate: 'Aug 2019',
     endDate: 'March 2020',
     jobTitle: 'Interim Controller',
-    responsibilities: 'Acting Controller for holding entity primarily dealing with intercompany transactions and netting; reporting directly to the CFO. Responsibilities include preparing and reviewing reconciliations, ensuring proper expense and revenue recognition. Preparing all adjusting entries for month close. Maintaining and preparing prepaid amortization schedules. Preparing Financial Statements and accompanying fluctuation analysis. Assisting in yearly audit and implementing policies and procedures.',
+    responsibilities: `Acting Controller for holding entity primarily dealing
+    with intercompany transactions and netting; reporting directly to the CFO.
+    Responsibilities include preparing and reviewing reconciliations, ensuring
+    proper expense and revenue recognition. Preparing all adjusting entries for
+    month close. Maintaining and preparing prepaid amortization schedules.
+    Preparing Financial Statements and accompanying fluctuation analysis.
+    Assisting in yearly audit and implementing policies and procedures.`,
     accomplishments: [
       'Automated the delivery of intercompany transactions for 16 facilities.',
       'Implemented procedures to reduce the preparation of cash entries by 4 hours.'
     ]
   },
   {
-    id: 2,
+    id: 3,
     company: 'Atom Tickets, LLC',
     notes: '',
     city: 'Santa Monica, CA',
     begDate: 'Jan 2019',
     endDate: 'July 2019',
     jobTitle: 'Assistant Controller',
-    responsibilities: 'Assisted in managing and monitoring all accounting operations to ensure timely, complete, and accurate financial data. Responsibilities included but were not limited to, establishing and maintaining internal control policies, leading annual audit process, reviewing reconciliations, ensuring proper expense and revenue recognition, overseeing cash disbursements, performing forecasts, analyzing monthly variances, and preparing financial statements.',
+    responsibilities: `Assisted in managing and monitoring all accounting
+    operations to ensure timely, complete, and accurate financial data.
+    Responsibilities included but were not limited to, establishing and
+    maintaining internal control policies, leading annual audit process,
+    reviewing reconciliations, ensuring proper expense and revenue recognition,
+    overseeing cash disbursements, performing forecasts, analyzing monthly
+    variances, and preparing financial statements.`,
     accomplishments: [
       'Shortened vendor payment cycles by 4 days.',
       'Automated invoice creation and disbursement for Accounts Receivables.',
@@ -130,14 +180,25 @@ export const jobDataFull = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
     begDate: 'Jan 2013',
     endDate: 'Dec 2018',
     jobTitle: 'Manager of Accounting ',
-    responsibilities: 'Oversaw the accurate and timely accounting over commission revenue ($ 1B plus annually) and expenses for four companies. Responsibilities included maintaining and implementing respective policies and procedures, reviewing journal entries, accruals and reconciliations for the monthly financial close, regulatory reporting for the Financial Industry Regulatory Authority (FINRA, a non-profit regulatory body overseen by the SEC), and oversight over net capital. Assisted in budgeting and forecasting. Provided financial reporting and ad hoc requests to senior management. Managed cash, reviewed and approved wire transfers. Reviewed balance sheet and income statement to ensure accurate, complete, and appropriate presentation.  Directly managed two individuals, supervised up to 12 individuals based on need (Accounting Department consisted of 25 employees).',
+    responsibilities: `Oversaw the accurate and timely accounting over
+    commission revenue ($ 1B plus annually) and expenses for four companies.
+    Responsibilities included maintaining and implementing respective policies
+    and procedures, reviewing journal entries, accruals and reconciliations for
+    the monthly financial close, regulatory reporting for the Financial Industry
+    Regulatory Authority (FINRA, a non-profit regulatory body overseen by the
+    SEC), and oversight over net capital. Assisted in budgeting and forecasting.
+    Provided financial reporting and ad hoc requests to senior management.
+    Managed cash, reviewed and approved wire transfers. Reviewed balance sheet
+    and income statement to ensure accurate, complete, and appropriate
+    presentation.  Directly managed two individuals, supervised up to 12
+    individuals based on need (Accounting Department consisted of 25 employees).`,
     accomplishments: [
       'Collaborated with Asst. Controller, Controller, and CFO, who are Big 4 (KPMG) alumni ',
       'Provided coaching and development to team members',
@@ -151,7 +212,7 @@ export const jobDataFull = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
@@ -168,7 +229,7 @@ export const jobDataFull = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     company: 'National Planning Holdings, Inc.,',
     notes: '(A Jackson National Life affiliate)',
     city: 'Playa Vista, CA',
